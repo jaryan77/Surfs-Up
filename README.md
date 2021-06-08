@@ -11,7 +11,7 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 * Next, I used `automap_base()` to reflect my tables into classes and saved a reference to those classes called `Station` and `Measurement`.
 * Finally, link Python to the database by creating an SQLAlchemy session.
 
-![create_classes.png](Images/create_classes.png)
+![create_classes.png](Images/create_classes.PNG)
 
 ### Precipitation Analysis
 * By finding the most recent date in the data set, I retrieved the last 12 months of precipitation data by querying the 12 preceding motnhs of data. 
