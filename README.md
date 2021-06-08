@@ -17,4 +17,7 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 * By finding the most recent date in the data set, I retrieved the last 12 months of precipitation data by querying the 12 preceding motnhs of data. 
     * I was careful not to pass in the date as a variable to my query.
 
-* Next, I selected `date` and `prcp` values.
+* Next, I selected `date` and `prcp` values, loaded the query results into Pandas DataFrame and set the index to the date column, and sort the DataFrame values by `date`.
+* Next, I plotted the results using the DataFrame `plot` method.
+
+![precip_plot.png](Images/precip_plot.PNG)
