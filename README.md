@@ -21,3 +21,9 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 * Next, I plotted the results using the DataFrame `plot` method.
 
 ![precip_plot.png](Images/precip_plot.PNG)
+
+* I also used Pandas to print the summary statistics for the precipitation data.
+
+![summary_stats.png](Images/summary_stats.PNG)
+
+### Station Analysis
