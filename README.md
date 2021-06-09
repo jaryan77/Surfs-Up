@@ -27,3 +27,22 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 ![summary_stats.png](Images/summary_stats.PNG)
 
 ### Station Analysis
+
+* To start of my station analysis, I designed a query to calculate the total number of stations in the dataset.
+
+* Next, I sought out the most **active** stations i.e. the stations that have the most rows in the dataset. 
+* I then completed the following queries using `func.min`, `func.max`, `func.avg`, and `func.count`:
+    * List the stations and observation counts in descending order.
+    * Which station id has the highest number of observations?
+    * Using the most active station id, calculate the lowest, highest, and average temperature.
+
+* I then designed a query to retrieve the last 12 months of temperature observation data (TOBS).
+* To complete this task, I completed the following steps:
+    * Filter by station with the highest number of observations.
+    * Query the last 12 months of temperature observation data for this station.
+    * Plot the results as a histogram with `bins=12`
+
+![histogram.png](Images/histogram.PNG)
+
+### Close Section
+* As this is the completion of my climate analysis, I was sure to close this session using `session.close()`
