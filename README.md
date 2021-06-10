@@ -6,7 +6,7 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 **NOTE**: The [sqlite database](https://github.com/jaryan77/sqlalchemy-challenge/blob/main/Resources/hawaii.sqlite) for this project was already provided.
 #
 ## Climate Analysis and Exploration
-#
+
 * Using SQLAlchemy `create_engine`, I connected to my sqlite database
 * Next, I used `automap_base()` to reflect my tables into classes and saved a reference to those classes called `Station` and `Measurement`.
 * Finally, link Python to the database by creating an SQLAlchemy session.
@@ -49,7 +49,7 @@ In this project, I tasked myself with climate analysis of Hawaii by using advanc
 #
 
 ## Climate App
-#
+
 Now that I have finished my climate analysis, I went on to design a Flask API based on the queries that I have developed.
 
 ### Using Flask, I created the following routes:
